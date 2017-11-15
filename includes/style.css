@@ -1,0 +1,178 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+footer,header,article,section,nav,aside,main{
+	display: block;
+}
+.clear{
+	clear: both;
+}
+header{
+	width: 100%;
+	height: 62px;
+	background-color:#1b1e26;
+} 
+#logo{
+	height:295px;
+	width:295px;
+	padding-top:10px;
+}
+header a{
+	background-image:url("../images/logo.png");
+	background-repeat: no-repeat;
+	margin-left: 65px;
+	display:block;
+	text-decoration: none;
+}
+header span{
+	color:#ffffff;
+	font-family:Arial;
+	font-size:35px;
+	margin-left:50px;		
+}
+header span:nth-child(2){
+	color:#ffffff;
+	font-family: Gigi;
+	font-size:35px;
+	margin-left: -7px;	
+}
+nav{
+	color: #fff;
+	height: 39px;
+}
+nav a{
+	font-family:Arial;
+	font-size: 25px;
+	text-decoration: none;
+	color:#8e959c;
+	padding-left: 70px;
+}
+nav a:hover{
+	color:#484848;
+}
+main{
+	height: 1028px;	
+	width:100%
+}
+.cover{
+	height:430px;
+}
+.mainSec{
+	height: 430px;
+	width: 1144px;
+	margin-left:75px;
+}
+.mainSec h1{
+	font-family: Arial;
+	font-size:40px;
+	color:#8e959c;
+	padding-top:27px;
+}
+.mainDiv{
+	border: 1px solid #d9dbdf;
+	width: 350px;
+	height:281px;
+	margin-top:29px;
+}
+.mainDiv img{
+	margin-left:15px;
+	margin-top: 16px;
+}
+.mainDiv div{
+	position:relative;
+	font-family: Arial;
+}
+.mainDiv div h3 {
+	font-size:15px;
+	font-style: bold;
+	margin-left:79px;
+	margin-top:18px;
+	position: absolute;
+}
+.mainDiv div h4 {
+	font-size:12px;
+	color:#d9dbdf;
+	margin-left:79px;
+	margin-top:40px;
+	position:absolute;
+}
+.mainDiv div img{
+	margin-top:18px;
+	position:absolute;
+}
+.line{
+	border-bottom: 1px solid #e7e7e7;
+	height: 75px;
+	width: 1144px;
+}
+.subDiv{
+	position:relative;
+}
+.subDiv img{
+	border-radius: 50%;
+	margin-top:34px;
+	position: absolute;
+}
+.subDiv h4{
+	margin-left:99px;
+	margin-top:66px;
+	position:absolute;
+	font-family: Arial;
+	font-size: 15PX;
+}
+.subDiv h4:nth-child(2){
+	margin-top:91px;
+}
+.subDiv time{
+	margin-left:99px;
+	margin-top:45px;
+	position:absolute;
+}
+#skills{
+	width:100%;
+	height:289px;
+	background-color: #1b1e26;
+	margin-top:156px;
+	float: left;
+	
+}
+#skills h2{
+	margin-left:66px;
+	margin-top:37px;
+	position:absolute;
+	font-family: Arial;
+	font-size: 30px;
+	color:#fff;	
+}
+#skills ul{
+display:inline;
+	list-style-type:none;
+	margin-top:74px;
+	position:absolute;
+	margin-left:66px;
+}
+#skills ul li{
+	color:#8e959c;
+	font-family:Arial;
+	font-size:20px;
+}
+footer{
+	height:92px;
+	background-color: #ffffff;
+}
+footer ul{
+	display:inline;
+	list-style-type:none;
+	font-family:Arial;
+	font-size:15px;
+}
+footer ul li{
+	margin-top:20px;
+	float: left;
+}
+footer ul li a{
+	color:#696969;
+	text-decoration:none;
+	margin-left: 66px;		
+}
